@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:control="clr-namespace:Week8.Controls"
+             xmlns:local="clr-namespace:Week8.Effects"
+             
+             x:Class="Week8.Views.DevicePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="Effect attached to an Entry" >
+                <Entry.Effects>
+                    <local:FocusEffect />
+                </Entry.Effects>
+            </Entry>
+
+            <control:ExtendedEntry Placeholder="Name in MyEntry" HasBackGroundSettedProperty="True" />
+            <Entry Placeholder="Name in Normal Entry" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
