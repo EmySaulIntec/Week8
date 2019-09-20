@@ -2,4 +2,5 @@
 Proyecto desarrollado en Xamarin, Xtended Entry, Foccus and Services
 
 ## Imagenes
-![Alt Image](https://i.ytimg.com/vi/345P79XYeZ8/maxresdefault.jpg)
+![Alt Image](https://github.com/EmySaulIntec/Week8/blob/master/Imagenes/1.PNG)
+![Alt Image](https://github.com/EmySaulIntec/Week8/blob/master/Imagenes/2.PNG)
